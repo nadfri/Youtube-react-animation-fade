@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-open-modal {
+  font-size: 30px;
+  color: white;
+  background-color: #5e72e4;
+  border: 2px white;
+  border-radius: 10px;
+  margin-top: 3rem;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+
