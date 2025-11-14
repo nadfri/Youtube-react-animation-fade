@@ -7,6 +7,7 @@ type Props = {
 
 export function Modal({ setIsOpenModal }: Props) {
   const modalRef = useRef<HTMLDivElement>(null);
+
   const timeoutRef = useRef<number | null>(null);
 
   /*Clear timeout if the component is unmounted*/
@@ -21,7 +22,6 @@ export function Modal({ setIsOpenModal }: Props) {
   const handlecloseModal = () => {
     /*If modalRef is null, do nothing*/
     if (!modalRef.current) return;
-
 
     /*Clear any existing timeout*/
     if (timeoutRef.current) {
