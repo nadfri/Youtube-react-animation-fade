@@ -37,7 +37,7 @@ export function Modal({ setIsOpenModal }: Props) {
 
   return (
     <div className='Modal fadeIn' ref={modalRef}>
-      <div className='modal-content slideUp' role='dialog' aria-modal='true'>
+      <div className='modal-content' role='dialog' aria-modal='true'>
         <h2>Modal Title</h2>
 
         <p>

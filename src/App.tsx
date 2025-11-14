@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import './App.css';
+import { useState } from 'react';
 import { Modal } from './components/Modal/Modal';
 
 export default function App() {
