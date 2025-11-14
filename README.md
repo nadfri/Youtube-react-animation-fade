@@ -22,9 +22,8 @@ When the modal is closed, a CSS animation is triggered before the modal is remov
 
 ## YouTube Video
 
-A full video tutorial will be available soon!
+[Watch the tutorial on YouTube](https://youtu.be/ANyqTrBmg6Y)
 
-[YouTube Link Coming Soon]
 
 ---
 
